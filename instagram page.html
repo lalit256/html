@@ -11,34 +11,34 @@
         }
         .container{
             height: 102vh;
-            border: 2px solid black;
+            
+        
         }
         .header{
             height: 90%;
-            border: 2px solid blue;
+        
             display: flex;
             justify-content: center;
             align-items: center;
-
+        
         }
-        .footer{
-            height: 8%;
-            border: 2px solid khaki;
-        }
-       
+        
         .box{
             height: 90%;
-            width: 30%;
-            border: 2px solid green;
+            width: 25%;
             display: flex;
             justify-content: center;
             align-items: center;
+            background-color: aliceblue;
             
+           }
+           .phoneimage{
+            height: 99%;
+            width: 99%;
            }
         .subbox{
             height: 99%;
             width: 85%;
-            border: 2px solid hotpink;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
@@ -46,98 +46,212 @@
        
         .box1{
             height:63%;
-            border: 2px dashed firebrick;
+            border: 2px solid gray;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 15px;
+            
+        
         }
         .insta{
-            height:23%;
-            border: 2px dashed darkmagenta;
+            height:30%;
+        
+        }
+        .instaimage{
+            width: 99%;
+            height:99%;
+            margin-top: 15px;
         }
         .login{
             height:45%;
-            border: 2px dashed khaki;
+        
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
         }
         .input{
             height:60%;
-            border:2px dashed darkmagenta;
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
+        .ph{
+            width: 80%;
+            height: 35px;
+            margin-top: 10px;
+           margin-left: 30px;
+        }
+         
+        .ph::placeholder{
+           color: gray;
+           font-size: 12px;
+         }
         .button{
             height:20%;
-            border: 2px dashed firebrick;
+            width: 90%;
+           margin-top: 10px;
+            margin-left: 30px;
+
+           
+           
+        }
+        .loginn{
+            height: 100%;
+            width: 85%;
+            background-color: blue;
+            font-size: 15px;
+            color: aliceblue;
+            opacity: 0.8;
+            border-radius: 7%;
+            
+           
         }
         .or{
             height: 10%;
-            border: 2px solid blue;
+            width: 95%;
+            color: gray;
+            display: flex;
+            justify-content:center;
+            margin-top: 20px;
         }
         .facebook{
             height:25%;
-            border: 2px dashed slategray;
+            margin-top: 18px;
+            
+            
         }
         .loginfb{
             height: 55%;
-            border: 2px solid black;
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+
         }
         .forget{
             height: 40%;
-            border: 2px solid red;
+            color: gray;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .box2{
             height:10%;
-            border: 2px dashed hotpink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid gray;
+        }
+        h3{
+            font-size: 15px;
+            color: blue;
+            text-decoration:none;
         }
         .box3{
             height:20%;
-            border: 2px dashed forestgreen;
+           
         }
         .app{
-            height:30% ;
-            border:2px solid darkgoldenrod ;
+            height:20% ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            margin-bottom: 25px;
         }
         .apple{
             height: 68%;
-            border: 2px solid hotpink;
+        
             display: flex;
         }
         .apple1{
             height: 100%;
             width:50%;
-            border: 2px solid tan;
+            margin-left: 12px;
+        
+            
+}
+        .apple1image{
+            height: 90%;
+            width:90%;
+            border-radius: 18px;
+
+        }
+        .apple2image{
+            height: 90%;
+            width:90%;
+        }
+        .image1{
+            height: 90%;
+            width:99%;
+        }
+        .footer{
+            height: 8%;
+            display: flex;
+            word-spacing: 10px;
+            align-items: center;
+            justify-content: center;
+            color: grey;
         }
     </style>
 </head>
 <body>
 <div class="container">
     <div class="header">
+       
         <div class="box">
-          
+            <img src="./phone.jfif" alt="" class="phoneimage"/>
         </div>
         <div class="box">
             <div class="subbox">
                 
                 <div class="box1">
                 
-                     <div class="insta"></div>
+                     <div class="insta">
+                        <img src="C:\Users\LALIT\OneDrive\Desktop\html\instaimage.png" class="instaimage"/>
+                     </div>
                      <div class="login">
-                        <div class="input"></div>
-                        <div class="button"></div>
-                        <div class="or"></div> 
+                        <div class="input">
+                            <form>
+                             <input type="text" name="phonenumber,username or email" value="" placeholder="Phonenumber,username or email" class="ph"/>
+                             <input type="text" name="password" value="" placeholder="Password" class="ph"/>
+                            </form>
+                        </div>
+                        <div class="button">
+                            <button class="loginn">Log in</button>
+                        </div>
+                        <div class="or">
+                            ________________OR_______________
+                        </div> 
                     </div>
                     <div class="facebook">
-                      <div class="loginfb"></div>
-                      <div class="forget"></div>
+                      <div class="loginfb">
+                        <a href="Login with Facebook">Login with Facebook</a>
+                      </div>
+                      <div class="forget">
+                        Forget password?
+                      </div>
                     </div>
                 </div>
                 <div class="box2">
-
+                    Don't have an account?   <a href="https://www.instagram.com/accounts/emailsignup/"><h3>Sign up</h3> </a>
+                
                 </div>
                 <div class="box3">
-                    <div class="app"></div>
+                   
+                    <div class="app"> Get the app.</div>
                     <div class="apple">
-                        <div class="apple1"></div>
-                        <div class="apple1"></div>
+                        <div class="apple1">
+                          <img src="C:\Users\LALIT\OneDrive\Desktop\html\apple1.png" alt="" class="apple1image" />
+                        </div>
+                        <div class="apple1">
+                            <img src="C:\Users\LALIT\OneDrive\Desktop\html\apple2.png" alt="" class="apple2image"/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -145,6 +259,7 @@
 
     </div>
     <div class="footer">
+        <p >Meta About Blog Jobs Help API Privacy Terms Top Accounts Locations Instagram Lite Threads Meta Verified</p>
     </div>
 <div>
 </body>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix page</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+    .container{
+        height: 120vh;
+        width: 100%;
+        border: 2px solid black;
+        background-color: rgba(0, 0, 0, 0.50);
+       
+    }
+     .box{
+        height: 15%;
+        width:17%;
+        border: 2px solid blue;
+    } 
+    .subbox{
+        height: 80%;
+        width: 30%;
+        border: 2px  solid navajowhite;
+       margin-left: 40%;
+       background-color: rgba(0,0,0,0.79);
+       
+    }
+    .box1{
+        height: 95%;
+        width: 92%;
+        border: 2px solid navy;
+        margin: 15px 15px 15px 15px;
+
+    }
+    
+    .box2{
+        height: 60%;
+        border: 2px solid green;
+    }
+    .sign{
+        height: 25%;
+        border: 2px dotted yellowgreen;
+        font-size: 40px;
+        color: aliceblue;
+        margin: auto;
+    }
+    .form{
+        height:50%;
+        border:2px solid teal;
+        display: flex;
+        align-items: center;
+    }
+    .ph{
+        height:50px;
+         width:400px;
+        background-color: #333;
+        border:none;
+        margin:8px;
+        
+        
+    }
+       .ph::placeholder{
+           color: grey;
+           font-size: 20px;
+           
+         } 
+    .button{
+        height: 20%;
+        border: 2px double blueviolet;
+    }
+    .buttcss{
+        height: 98%;
+        width:100%;
+        font-size: 20px;
+        color: white;
+        background-color: red;
+    }
+    .remember{
+        height: 10%;
+        width: 100%;
+        border: 2px double tomato;
+        color: aliceblue;
+        position: relative;
+    }
+    .remember type{
+        color: #333;
+    }
+    h1{
+        position: absolute;
+        right:0px;
+        top: 5px;
+        color: white;
+        font-size: 15px;
+    }
+        
+    
+    .help{
+        height:10%;
+        border: 2px double gold;
+        width: 50%;
+        float: left;
+        
+    }
+    .box2{
+        height:40%;
+        border: 2px dotted firebrick;
+        
+    }
+    .new{
+        height: 100%;
+        border: 2px double forestgreen;
+        font-size: large;
+    }
+    .thispage{
+        height: 30%;
+        border: 2px solid darkblue;
+    }
+    </style>
+</head>
+<body background="https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_large.jpg">
+   <div class="container">
+    <div class="box"> 
+    </div>
+    <div class="subbox">
+        <div class="box1">
+        <div class="box2">
+            <div class="sign">                                                                                                                       
+                Sign In
+            </div>
+            <div class="form">
+                <form>
+                    <input type="text" name="Email or phone number" value="" placeholder="Email or phone number" class="ph"/>
+                    <br/>
+                    <input type="password" name="password" value="" placeholder="Password" class="ph"/>
+                </form>
+               
+            </div>
+            <div class="button">
+                <button class="buttcss"> Sign In</button>
+            </div>
+            <div class="remember">
+                <input type="checkbox" name="remember me" value="" />
+               <span>Remember me</span> 
+               <h1>Need Help?</h1>
+              </div>
+              <div class="new">
+                <p>New to Netflix?</p>
+              </div>
+              <div class="thispage"></div>
+        </div>
+       
+   </div> 
+
+   
+</body>
+</html>
